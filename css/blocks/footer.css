@@ -1,0 +1,56 @@
+@import url("/css/style.css");
+
+.footer__grid--items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+.footer__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__bottom {
+    font-size: 12px;
+    line-height: 115%;
+    letter-spacing: 0%;
+    font-weight: 500;
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__legal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer__brand {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+.footer__col-title {
+    color: #5D5D5D;
+    margin-bottom: 12px;
+}
+
+
+.footer__legal {
+    color: #5D5D5D;
+}

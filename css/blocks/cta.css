@@ -1,0 +1,44 @@
+@import url("/css/style.css");
+
+
+.cta {
+    margin: 50px 0px 100px 0px;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+
+.cta__banner {
+    border-radius: var(--radius);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 350px;
+
+    background: url("/images/hero/banner/photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cta__banner--content {
+    margin: 0px 0px 35px 40px;
+
+
+}
+
+
+.cta__title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 109%;
+    letter-spacing: -2%;
+}

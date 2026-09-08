@@ -1,0 +1,44 @@
+@import url("../style.css");
+@import url("../global/root.css");
+
+
+.offerings {
+    margin-bottom: 50px;
+}
+
+
+.offerings__label {
+    display: block;
+    color: var(--accent-color);
+    font-size: .85rem;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: var(--dark);
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+}
+
+.offerings__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.offering__item {
+    background-color: var(--card-bg);
+    border-radius: 4px;
+    padding: 25px 10px;
+    gap: 14px;
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offering__item-title {
+    font-size: .8rem;
+    font-weight: 500;
+}

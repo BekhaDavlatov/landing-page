@@ -1,0 +1,55 @@
+@import url("/css/style.css");
+@import url("/css/global/root.css");
+
+
+
+.features {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    max-width: 800px;
+    padding: 0px 40px;
+}
+
+.features__grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.features__items--last {
+    grid-column: 1 / -1;
+    margin-top: 100px;
+}
+
+
+.features__items {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.features__items--img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features__items--img--last {
+    object-position: top;
+}
+
+
+.features__title {
+    color: var(--bg-olive);
+    margin: 20px 20px 0px 0px;
+}
+
+.features__media {
+    aspect-ratio: 4/3;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    max-height: 350px;
+}

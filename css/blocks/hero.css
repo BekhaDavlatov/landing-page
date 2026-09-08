@@ -1,0 +1,28 @@
+@import url("../style.css");
+@import url("../global/root.css");
+
+.hero {
+    background: var(--bg-olive);
+    color: var(--text-light);
+    padding: 20px 40px;
+
+
+    max-width: 800px;
+}
+
+.hero__title {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    color: var(--text-light);
+    margin-bottom: 20px;
+}
+
+.hero__accent {
+    color: var(--accent-color);
+}
+
+.hero__subtitle {
+    color: #CBCBCB;
+    font-weight: 355;
+    line-height: 17px;
+    margin-bottom: 50px;
+}

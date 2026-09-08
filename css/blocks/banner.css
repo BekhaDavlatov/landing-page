@@ -1,0 +1,88 @@
+@import url(../global/root.css);
+@import url(../style.css);
+
+
+.banner__media {
+    position: relative;
+    max-width: 720px;
+    aspect-ratio: 720/381;
+    overflow: hidden;
+    border-radius: var(--radius);
+    margin-top: 50px;
+
+
+}
+
+.banner__media--img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner__media--content {
+    position: absolute;
+    inset: 0;
+
+    pointer-events: none;
+}
+
+
+.banner__badge {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 20px;
+    border-radius: 50px;
+
+
+    background-color: var(--olive);
+    opacity: .7;
+}
+
+.banner__icon {
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    gap: 10px
+}
+
+.banner__icon--img {
+    width: 25px;
+    height: 25px;
+    background-color: #D2FD9C;
+    padding: 10px;
+    border-radius: 100%;
+
+}
+
+
+.banner__badge--interest {
+    top: 18%;
+    left: 9%
+}
+
+.banner__badge--sent {
+    top: 5%;
+    right: 10%;
+}
+
+.banner__badge--received {
+    bottom: 25%;
+    left: 30%;
+}
+
+
+.banner {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+}

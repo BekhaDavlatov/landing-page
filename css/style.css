@@ -1,0 +1,17 @@
+@import url("./blocks/hero.css");
+@import url("./global/reset.css");
+@import url("./blocks/button.css");
+@import url("./global/heading.css");
+@import url("../css/global/text.css");
+@import url("../css/blocks/header.css");
+@import url("../css/blocks/offerings.css");
+@import url("../css/blocks/heroNav.css");
+@import url("./blocks/banner.css");
+@import url("/css/blocks/partners.css");
+@import url("/css/blocks/stats.css");
+@import url("/css/global/fonts.css");
+@import url("/css/global/root.css");
+@import url("/css/blocks/features.css");
+@import url("/css/blocks/software.css");
+@import url("/css/blocks/cta.css");
+@import url("/css/blocks/footer.css");

@@ -1,0 +1,10 @@
+@import url("../style.css");
+
+.section-heading {
+    font-size: clamp(1rem, 4vw, 2rem);
+    color: #000;
+}
+
+.section-heading--center {
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+@import url("/css/global/root.css");
+@import url("../style.css");
+
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 11px 14px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: .15s ease, box-shadow .15s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .15);
+}
+
+button--primary {
+    background: var(--lemon-olive);
+    color: var(--dark);
+}
+
+button--primary:hover {
+    background: var(--olive);
+}

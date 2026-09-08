@@ -1,0 +1,64 @@
+@import url("/css/style.css");
+@import url("/css/global/root.css");
+
+
+
+.stats {
+    max-width: 800px;
+    padding: 0px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.stats__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.stats__card {
+    background: var(--lemon-olive);
+    border-radius: var(--radius);
+    padding: 30px 20.7px;
+    text-align: center;
+}
+
+.stats__value {
+    display: block;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: var(--bg-olive);
+    letter-spacing: -4%;
+    line-height: 103.7%;
+
+}
+
+.stats__chart {
+    max-width: 350px;
+    height: 221.87px;
+    margin-bottom: 8px;
+}
+
+.stats__icon {
+    margin-bottom: 8px;
+}
+
+.stats__label {
+    font-weight: 500;
+}
+
+
+.section-heading--stats {
+    text-align: center;
+    color: var(--bg-olive);
+    font-size: 42px;
+    line-height: 105.8%;
+    letter-spacing: -2%;
+}
