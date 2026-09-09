@@ -1,6 +1,3 @@
-@import url("/css/style.css");
-
-
 .cta {
     margin: 50px 0px 100px 0px;
     max-width: 800px;
@@ -39,6 +36,4 @@
     font-size: 32px;
     font-weight: 400;
     color: #FFFFFF;
-    line-height: 109%;
-    letter-spacing: -2%;
 }

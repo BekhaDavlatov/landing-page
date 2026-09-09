@@ -1,5 +1,3 @@
-@import url("/css/style.css");
-
 .footer__grid--items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -35,6 +33,8 @@
 .footer__legal {
     display: flex;
     flex-direction: column;
+
+    color: #5D5D5D;
 }
 
 
@@ -48,9 +48,4 @@
 .footer__col-title {
     color: #5D5D5D;
     margin-bottom: 12px;
-}
-
-
-.footer__legal {
-    color: #5D5D5D;
 }

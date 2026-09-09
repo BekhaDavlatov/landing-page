@@ -1,5 +1,4 @@
 @import url("/css/global/root.css");
-@import url("../style.css");
 
 button {
     border: none;
@@ -17,11 +16,11 @@ button:hover {
     box-shadow: 0 6px 16px rgba(0, 0, 0, .15);
 }
 
-button--primary {
+.button--primary {
     background: var(--lemon-olive);
     color: var(--dark);
 }
 
-button--primary:hover {
+.button--primary:hover {
     background: var(--olive);
 }

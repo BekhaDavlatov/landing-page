@@ -1,5 +1,4 @@
 @import url(../global/root.css);
-@import url(../style.css);
 
 
 .banner__media {
@@ -38,7 +37,9 @@
     align-items: center;
     gap: 10px;
 
-    padding: 10px 20px;
+    max-width: 30%;
+
+    padding: 10px 10px;
     border-radius: 50px;
 
 
@@ -56,11 +57,10 @@
 }
 
 .banner__icon--img {
-    width: 25px;
-    height: 25px;
+    width: 25%;
+    height: 25%;
     background-color: #D2FD9C;
-    padding: 10px;
-    border-radius: 100%;
+    border-radius: 50%;
 
 }
 
