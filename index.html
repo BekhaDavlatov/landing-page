@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./script.js" defer></script>
     <title>Entra</title>
 </head>
 
@@ -62,14 +63,13 @@
             </symbol>
         </svg>
         <section class="hero">
-            <header class="header">
+            <header class="header" id="header">
                 <a href="#!" class="header__logo">
                     <svg class="header__logo-icon" width="15" height="17" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 8h14l-4-4M21 16H7l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" />
-                    </svg>
-                    Entra
+                    </svg> Entra
                 </a>
                 <button class="button button--primary">Get started</button>
             </header>
@@ -84,22 +84,28 @@
 
                 <ul class="offerings__list">
                     <li class="offering__item">
-                        <svg class="icon icon-bolt">
-                            <use href="#icon-bolt"></use>
-                        </svg>
-                        <p class="offering__item-title">Instant Productivity</p>
+                        <a href="#!" class="offering__item--link">
+                            <svg class="icon icon-bolt">
+                                <use href="#icon-bolt"></use>
+                            </svg>
+                            <p class="offering__item-title">Instant Productivity</p>
+                        </a>
                     </li>
                     <li class="offering__item">
-                        <svg class="icon icon-sunflower">
-                            <use xlink:href="#icon-sunflower"></use>
-                        </svg>
-                        <p class="offering__item-title">Expense Management</p>
+                        <a href="#!" class="offering__item--link">
+                            <svg class="icon icon-sunflower">
+                                <use xlink:href="#icon-sunflower"></use>
+                            </svg>
+                            <p class="offering__item-title">Expense Management</p>
+                        </a>
                     </li>
                     <li class="offering__item">
-                        <svg class="icon icon-shield">
-                            <use xlink:href="#shield-icon"></use>
-                        </svg>
-                        <p class="offering__item-title">Advanced Technology</p>
+                        <a href="#!" class="offering__item--link">
+                            <svg class="icon icon-shield">
+                                <use xlink:href="#shield-icon"></use>
+                            </svg>
+                            <p class="offering__item-title">Advanced Technology</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -120,22 +126,19 @@
                     <div class="banner__badge banner__badge--interest">
                         <div class="banner__icon">
                             <img src="/images/hero/banner/barChar.png" alt="barchart statistic"
-                                class="banner__icon--barchar banner__icon--img">
-                            Interest earned!
+                                class="banner__icon--barchar banner__icon--img"> Interest earned!
                         </div>
                     </div>
                     <div class="banner__badge banner__badge--sent">
                         <div class="banner__icon">
                             <img src="/images/hero/banner/famaly.png" alt="wallet"
-                                class="banner__icon--barchar banner__icon--img">
-                            Money sent!
+                                class="banner__icon--barchar banner__icon--img"> Money sent!
                         </div>
                     </div>
                     <div class="banner__badge banner__badge--received">
                         <div class="banner__icon">
                             <img src="/images/hero/banner/Icon container.png" alt="wallet"
-                                class="banner__icon--wallet banner__icon--img">
-                            Payment received!
+                                class="banner__icon--wallet banner__icon--img"> Payment received!
                         </div>
                     </div>
                 </div>
@@ -149,22 +152,19 @@
                 <li class="partner__item">
                     <a href="#!" class="partner__item--link">
                         <img class="partner__item-img" src="/images/hero/partners/Layer_1.png"
-                            alt="symbol of the Blooming">
-                        Blooming
+                            alt="symbol of the Blooming"> Blooming
                     </a>
                 </li>
                 <li class="partner__item">
                     <a href="#!" class="partner__item--link">
                         <img class="partner__item-img" src="/images/hero/partners/Exclude.png"
-                            alt="symbol of the BuildRight">
-                        BuildRight
+                            alt="symbol of the BuildRight"> BuildRight
                     </a>
                 </li>
                 <li class="partner__item">
                     <a href="#!" class="partner__item--link">
                         <img class="partner__item-img" src="/images/hero/partners/Flowbot.png"
-                            alt="symbol of the Flowbot">
-                        Flowbot
+                            alt="symbol of the Flowbot"> Flowbot
                     </a>
                 </li>
                 <li class="partner__item">
@@ -190,7 +190,7 @@
 
             <ul class="stats__grid">
                 <li class="stats__card">
-                    <span class="stats__value">2x</span>
+                    <span class="stats__value stats__value--counter">2x</span>
                     <p class="stats__label">Double Your Productivity</p>
                 </li>
                 <li class="stats__card">
@@ -297,7 +297,7 @@
                     <p class="stats__label">Centralize Your Finances</p>
                 </li>
                 <li class="stats__card">
-                    <span class="stats__value">130%</span>
+                    <span class="stats__value stats__value--counter">130%</span>
                     <p class="stats__label">More Activity</p>
                 </li>
             </ul>
@@ -384,7 +384,7 @@
                 </li>
             </ul>
         </section>
-        <section class="cta">
+        <section class="cta" id="cta">
             <div class="cta__banner">
                 <div class="cta__banner--content">
                     <h2 class="cta__title">
