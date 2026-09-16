@@ -50,13 +50,18 @@
 
 @media (max-width: 768px) {
     .offerings__list {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 420px) {
     .offerings__list {
         grid-template-columns: 1fr;
+    }
+
+    .stats__grid {
+        padding: 0px 20px;
+
     }
 }
 
