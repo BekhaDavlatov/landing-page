@@ -1,7 +1,3 @@
-@import url("/css/global/root.css");
-
-
-
 .features {
     margin-top: 80px;
     margin-bottom: 100px;
@@ -51,4 +47,18 @@
     background-size: cover;
     background-position: center;
     max-height: 350px;
+}
+
+.features__media--card {
+    transition: all .10s ease;
+}
+
+
+.features__media--card:hover,
+.features__media--card:focus {
+    transform: scale(1.02);
+}
+
+.features__media--card:active {
+    transform: scale(1);
 }

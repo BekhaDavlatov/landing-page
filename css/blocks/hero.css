@@ -1,5 +1,3 @@
-@import url("../global/root.css");
-
 .hero {
     background: var(--bg-olive);
     color: var(--text-light);
@@ -33,34 +31,17 @@
 
 .hero-nav__link {
     font-size: 12px;
-}
-
-.hero-nav__link:hover {
-    color: var(--text-light);
-    transform: scale(1.03);
     transition: all .10s ease;
 }
+
+.hero-nav__link:hover,
+.hero-nav__link:focus {
+    color: var(--text-light);
+    transform: scale(1.1);
+}
+
+
 
 .hero-nav__link:active {
-    transform: translateY(1px);
-}
-
-.offering__item:hover {
-    transform: scale(1.02);
-    transition: all .10s ease;
-}
-
-.offering__item:active {
-    transform: translateY(1px);
-}
-
-
-
-
-.offering__item--link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 14px;
+    transform: scale(1);
 }

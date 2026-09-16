@@ -5,11 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initPrimaryButtons();
     initStatsCounters();
 });
-
-/**
- * Adds a "scrolled" state to the header while the visitor scrolls
- * through the hero section, so it can get a background/shadow via CSS.
- */
 function initStickyHeader() {
     const header = document.querySelector('header');
     if (!header) return;
@@ -32,10 +27,6 @@ function initStickyHeader() {
     updateHeaderState();
 }
 
-/**
- * Both "Get started" buttons scroll the visitor down to the
- * download CTA section instead of doing nothing.
- */
 function initPrimaryButtons() {
     const target = document.querySelector('cta');
     if (!target) return;
@@ -47,12 +38,7 @@ function initPrimaryButtons() {
     });
 }
 
-/**
- * Animates each .stats__value from 0 up to its real number once it
- * scrolls into view. Numbers/suffixes are parsed from the existing
- * text ("2x", "98%", "3.4M", "130%"), so the markup doesn't need to
- * change and still shows the correct value if JS never runs.
- */
+
 function initStatsCounters() {
     const values = document.querySelectorAll('.stats__value--counter');
     if (!values.length) return;

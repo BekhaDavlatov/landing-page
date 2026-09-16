@@ -1,5 +1,3 @@
-@import url("../global/root.css");
-
 .header {
     display: flex;
     align-items: center;
@@ -14,4 +12,16 @@
     font-weight: 700;
     font-size: 1rem;
     color: #FFFFFF;
+    transition: all .10s ease;
+
+}
+
+.header__logo:hover,
+.header__logo:focus {
+    transform: scale(1.05);
+}
+
+
+.header__logo:active {
+    transform: scale(1);
 }

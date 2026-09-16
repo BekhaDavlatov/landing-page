@@ -1,6 +1,3 @@
-@import url("../global/root.css");
-
-
 .offerings {
     margin-bottom: 50px;
 }
@@ -35,9 +32,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .offering__item-title {
     font-size: .8rem;
     font-weight: 500;
+}
+
+
+
+
+.offering__item {
+    transition: all .10s ease;
+}
+
+.offering__item:hover,
+.offering__item:focus {
+    transform: scale(1.1);
+}
+
+
+.offering__item:active {
+    transform: scale(1);
+}
+
+.offering__item--link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
 }

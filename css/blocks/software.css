@@ -9,3 +9,16 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.software__item {
+    transition: all .10s ease;
+}
+
+.software__item:hover,
+.software__item:focus {
+    transform: scale(1.05);
+}
+
+.software__item:active {
+    transform: scale(1);
+}
